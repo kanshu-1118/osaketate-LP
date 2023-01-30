@@ -1,0 +1,237 @@
+html{
+    font-size:62.5%;
+}
+body{
+    background-image: url("../img/Rectangle2.jpg");
+    background-repeat: repeat-y;
+    background-position: top;
+    background-size: contain;
+    font-size: 1.4rem;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    background: rgba(0,0,0,0.5);
+}
+h1{
+    height: 54px;
+}
+h1 img{
+    height: 100%;
+}
+#topNav ul{
+    display: flex;
+    gap: 48px;
+}
+#mainTop{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+#telephone{
+    background: #FFFFFF;
+    width: 120px;
+    height: 40px;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#telephone a{
+    color: #000;
+}
+.topNav-item a{
+    color: #FFFFFF;
+}
+#main{
+    width: 100%;
+    padding: 160px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main_logo img{
+    width: 100%;
+    height: 270px;
+}
+#innerBox{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#innerBox img{
+    width: 100%;
+    height: 110px;
+}
+#rightBox p, #rightBox span{
+    font-size: 3.2rem;
+    padding-left: 30px;
+    color: #FFFFFF;
+}
+#innerBox span{
+    transform: translateX(-40px);
+}
+#about{
+    max-width: 1000px;
+    width: 70%;
+    margin: 0 auto;
+}
+h2{
+    height: 100px;
+}
+h2 img{
+    height: 100%;
+}
+#about_container{
+    display: flex;
+    gap: 5%;
+    margin-top: 50px;
+}
+#service_logo{
+    width: 40%;
+    height: 440px;
+    display: flex;
+}
+#service_logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: transparent;
+    border: #FFFFFF solid 1px;
+    box-shadow: 0 0 10px #fff, inset 0 0 10px #fff;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+#textBox{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    justify-content: center;
+}
+.about_title{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.about_title:nth-of-type(even){
+    text-align: right;
+    margin-top: 10px;
+}
+#explanation{
+    margin-top: 50px;
+    line-height: 3rem;
+    font-size: 1.8rem;
+}
+#textBox p{
+    color: #FFFFFF;
+}
+#point{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    width: 70%;
+    margin: 120px auto 0;
+    position: relative;
+    height: 1300px;
+}
+#point h2{
+    width: 100%;
+}
+#point p{
+    color: #FFFFFF;
+}
+.card{
+    width: 40%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 25px;
+    position: absolute;
+}
+.card:nth-of-type(odd){
+    margin-right: 40%;
+    /* transform: rotateZ(5deg); */
+}
+.card:nth-of-type(even){
+    margin-left: 40%;
+    /* transform: rotateZ(-5deg); */
+}
+.card:nth-of-type(1){
+    transform: rotateZ(5deg);
+    border-color: #8B3AF2;
+    box-shadow: 0 0 10px #8B3AF2, inset 0 0 10px #8B3AF2;
+    top:200px;
+}
+.card:nth-of-type(2){
+    transform: rotateZ(-6deg);
+    border-color: #F2923A;
+    box-shadow: 0 0 10px #F2923A, inset 0 0 10px #F2923A;
+    top:500px;
+}
+.card:nth-of-type(3){
+    transform: rotateZ(2deg);
+    border-color: #232F9C;
+    box-shadow: 0 0 10px #232F9C, inset 0 0 10px #232F9C;
+    top:800px;
+}
+.card_image{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0;
+}
+.card_image img{
+    height: 100%;
+}
+.card_header{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+#future{
+    max-width: 1000px;
+    width: 70%;
+    margin: 50px auto 0;
+}
+.future_img{
+    width: 47%;
+    height: 350px;
+}
+.future_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.future_container{
+    display: flex;
+    gap: 6%;
+    margin: 50px auto 0;
+}
+#future_text{
+    display: flex;
+    width: 47%;
+    flex-direction: column;
+    justify-content: center;
+}
+#future_text p{
+    color: #FFFFFF;
+}
+.header{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.footer{
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-top: 24px;
+}
